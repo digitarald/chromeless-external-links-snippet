@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test</title>
+	<style>
+		/* For demo purposes only! */
+		a[target="_blank"]:after {
+			content: " [target=_blank]";
+			position: relative;
+			top: -0.5em; font-size: 63%;
+		}
+
+		body {
+			padding: 2em;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="http://www.mozilla.org">mozilla.org (no target set)</a></li>
+		<li><a href="http://www.mozilla.org" target="_top">mozilla.org (target is _top)</a></li>
+		<li><a href="http://www.mozilla.org" target="named_window">mozilla.org (target is named_window)</a></li>
+		<li><a href="./">./index.html (leads nowhere but is local)</a></li>
+		<li><a href="http://www.mozilla.com" target="_blank">mozilla.com (target is _blank)</a></li>
+	</ul>
+	<script src="./script.js"></script>
+</body>
+</html>
