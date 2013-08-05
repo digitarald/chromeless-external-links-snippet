@@ -1,18 +1,24 @@
-External Links Snippet for Chromeless Apps
-==========================================
+Open External Links in New Window
+=================================
 
-Open external links in a new window when your web app runs in a chromeless runtime.
+JavaScript snippet for Chromeless Apps
+--------------------------------------
 
-Useful for Firefox OS and iOS web apps! Created and tested in Firefox.
+Automatically open external links in a new window when your web app runs in a chromeless runtime.
 
-Why it doesn't suck:
+Especially useful for [Firefox OS](http://www.mozilla.org/en-US/firefox/os/) and [iOS](http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) web apps! Created for Firefox OS apps, works on the whole modern web.
+
+### Why it doesn't suck
 
  - Event delegation: Fast load and works on dynamic content
  - Doesn't use `window.open`, just changes the `target` for clicked links
  - Keeps existing `target` references intact
- - Vanilla JavaScript, the best cross-browser framework!
+ - Vanilla JavaScript (i.e. no dependencies), the best cross-browser framework!
 
-How to Use
-----------
+### How to Use
 
-Copy into your site, embed deferred via github or just get inspired and make your own.
+Either or:
+
+ - Copy code into your web app project,
+ - Embed deferred via github,
+ - … or just get inspired and make your own.
