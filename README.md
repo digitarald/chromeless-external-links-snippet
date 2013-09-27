@@ -15,6 +15,11 @@ Especially useful for [Firefox OS](http://www.mozilla.org/en-US/firefox/os/) and
  - Keeps existing `target` references intact
  - Vanilla JavaScript (i.e. no dependencies), the best cross-browser framework!
 
+## Why it's not a 100% solution
+
+ - Can't catch links to pages on the same host that don't have navigation back to your web app
+ - If you use multiple hostnames (e.g. login.mywebsite.com and www.mywebsite.com) within your app then those links will be broken.
+
 ### How to Use
 
 Either or:
